@@ -454,7 +454,7 @@ li::marker {
 
 .first-screen-slider-arrows {
   position: absolute;
-  max-width: 1620px;
+  max-width: 1670px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -844,16 +844,16 @@ section:nth-child(odd) .template-title:after {
     padding-right: 20px;
   }
   .calculation-form {
-    padding: 52px 35px 15px !important;
+    padding: 52px 35px 15px;
   }
   .calculation-form .input-box {
-    margin: 0 15px 20px !important;
+    margin: 0 15px 20px;
   }
   .calculation-form #file-name {
     margin: 0px 0 12px;
   }
   .calculation-form .btn {
-    max-width: none !important;
+    max-width: none;
   }
   .calculation-form .btn .icon {
     margin: 0 -14px 0 auto;
@@ -862,7 +862,7 @@ section:nth-child(odd) .template-title:after {
     flex-direction: column;
   }
   .padding {
-    padding-top: 0 !important;
+    padding-top: 0;
     padding-bottom: 5px;
   }
 }
@@ -910,12 +910,12 @@ section:nth-child(odd) .template-title:after {
     margin-bottom: 60px;
   }
   section.container-fluid {
-    padding: 55px 20px 60px !important;
+    padding: 55px 20px 60px;
     position: relative;
   }
   section.container-fluid:before {
-    left: 0 !important;
-    right: 0 !important;
+    left: 0;
+    right: 0;
   }
   section.container-fluid > .container {
     padding-left: 0;
