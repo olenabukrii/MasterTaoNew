@@ -978,6 +978,20 @@ bdi {
   .slider-template {
     margin: 0 -15px;
   }
+  section.services.container-fluid {
+    margin-bottom: 145px;
+  }
+}
+@media screen and (max-width: 530px) {
+  section.container-fluid {
+    margin-bottom: 54px;
+  }
+  .slide-img-box img {
+    min-height: 230px;
+  }
+  div.slide-buttons .btn {
+    padding: 13px 2px;
+  }
 }
 @media screen and (max-width: 767px) {
   .container {
@@ -1010,6 +1024,12 @@ bdi {
 @media screen and (max-width: 890px) {
   .slider-template {
     max-width: 390px;
+  }
+  .slider-template .slick-list {
+    margin-bottom: 27px;
+  }
+  div.slide-box {
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 991px) {
@@ -1048,6 +1068,9 @@ bdi {
     position: relative;
   }
   section {
+    margin-bottom: 60px;
+  }
+  section.delivery {
     margin-bottom: 60px;
   }
   section.container-fluid {
