@@ -937,6 +937,257 @@ bdi {
   margin-bottom: 13px;
 }
 
+div.about-company {
+  margin-top: -10px;
+}
+
+div.about-company .company-description p {
+  padding-bottom: 10px;
+}
+
+div.about-company__img-box {
+  position: absolute;
+  margin-top: -160px;
+}
+
+div.about-company__img-box .container {
+  position: relative;
+}
+
+.questions {
+  margin-top: 50px;
+}
+
+.questions .form-questions {
+  max-width: 390px;
+  background-color: #363A4D;
+  border-radius: 10px;
+}
+
+.questions .form-questions .form-title {
+  line-height: 126%;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.questions .form-questions .form-description {
+  line-height: 126%;
+  font-size: 17px;
+}
+
+.questions .form-questions .input-column {
+  padding-bottom: 38px;
+}
+
+.questions .accordion-questions .accordion-item {
+  max-width: 716px;
+  border: 1px solid #3A444E;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.questions .accordion-questions .accordion-button.collapsed {
+  background-color: #282B38;
+  color: #FFF;
+  max-height: 64px;
+  line-height: 144.5%;
+  border-radius: 9px;
+  border: 1px solid #3A444E;
+}
+
+.questions .accordion-questions .accordion-button::after {
+  content: "";
+  margin-left: auto;
+  background-image: url(assets/img/accordion-arrow-white.svg);
+  background-repeat: no-repeat;
+  background-size: 27px;
+  height: 30px;
+  width: 28px;
+}
+
+.questions .accordion-questions .accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.questions .accordion-questions .accordion-button:hover {
+  border-color: #E58D35;
+}
+
+.questions .accordion-questions .accordion-button:not(.collapsed) {
+  color: #282B38;
+  line-height: 124.5%;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: none;
+}
+
+.questions .accordion-questions .accordion .accordion-item .accordion-button:not(.collapsed)::after {
+  background-image: url(assets/img/accordion-arrow-orange.svg);
+  background-repeat: no-repeat;
+  transform: rotate(0deg) translate(17px, 2px);
+}
+
+.questions .accordion-questions .accordion-body {
+  color: #282B38;
+  line-height: 144.5%;
+}
+
+.btn-lg.questions-button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.description-content_1 {
+  margin-top: 85px;
+}
+
+.description-content_2 {
+  margin-bottom: 5px;
+}
+
+.description-content_2 p {
+  margin-top: 24px;
+  margin-bottom: 34px;
+}
+
+.img-cooperarion {
+  border-radius: 20px;
+  max-width: 100%;
+}
+
+.cooperation-text ul,
+.cooperation-text-2 ul {
+  padding-left: 0;
+}
+
+.cooperation-text-2 {
+  padding-left: 20px;
+}
+
+footer .container::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  max-width: 1140px;
+  height: 2px;
+  background: #e58d35;
+  width: calc(100% - 40px);
+}
+
+footer .col-lg-3 h4,
+footer .col-lg-3 a {
+  font-size: 14px;
+  line-height: 162.5%;
+  font-weight: 400;
+}
+
+footer .col-lg-3 h4 {
+  margin-bottom: 0px;
+}
+
+footer .col-lg-3 .information-column {
+  width: 263px;
+  height: 199px;
+  margin-top: 28px;
+}
+
+footer .col-lg-3 .information-column a {
+  color: #fff;
+}
+
+footer .col-lg-3 .information-column a:hover {
+  color: #89C249;
+}
+
+footer .col-lg-3 .column-links h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 146%;
+}
+
+footer .col-lg-3 .column-links a {
+  display: flex;
+  flex-direction: column;
+  color: #85899C;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160.5%;
+  text-decoration: underline;
+  margin-bottom: 7px;
+}
+
+footer .col-lg-3 .column-links a:hover {
+  color: #89C249;
+}
+
+footer .col-lg-3 .social-media {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 6px;
+}
+
+footer .col-lg-3 .box-1,
+footer .col-lg-3 .box-2,
+footer .col-lg-3 .box-3,
+footer .col-lg-3 .information-logo {
+  margin-top: 40px;
+}
+
+footer .col-lg-3 .box-1 {
+  margin-left: 64px;
+}
+
+footer .col-lg-3 .box-2 {
+  margin-left: 25px;
+}
+
+footer .col-lg-3 .box-3 {
+  margin-left: 17px;
+}
+
+@media screen and (min-width: 768px) {
+  .accordion-questions .accordion-button.collapsed {
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 34px;
+    padding-top: 21px;
+  }
+  .accordion-questions .accordion-button:not(.collapsed) {
+    font-size: 17px;
+    font-weight: 700;
+    padding: 21px 34px 10px;
+  }
+  .accordion-questions .accordion-body {
+    font-size: 17px;
+    font-weight: 300;
+    padding: 0 99px 21px 34px;
+  }
+  .form-questions .form-title {
+    padding: 38px 40px 0;
+  }
+  .form-questions .form-description {
+    font-weight: 300;
+    padding: 8px 40px 24px 40px;
+  }
+  .form-questions .input-box {
+    margin-bottom: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: -8px;
+  }
+  .form-questions .input-btn {
+    margin-top: 44px;
+    margin-bottom: 38px;
+  }
+  .form-questions input#text {
+    margin-bottom: 37px;
+  }
+  footer .col-lg-3 {
+    padding-bottom: 60px;
+  }
+}
 @media screen and (min-width: 992px) {
   section {
     padding-right: 40px;
@@ -981,6 +1232,34 @@ bdi {
   section.services.container-fluid {
     margin-bottom: 145px;
   }
+  div.about-company .company-description {
+    width: 555px;
+  }
+  div.about-company .company-description p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 170%;
+  }
+  section.questions {
+    margin-top: 168px;
+    margin-bottom: 157px;
+  }
+  section.questions .form-questions {
+    margin-left: -27px;
+  }
+  section.cooperation .description-content_1 p {
+    padding-bottom: 12px;
+    margin-left: 11px;
+  }
+  section.cooperation .description-content_2 {
+    margin-top: 54px;
+  }
+  section.cooperation .text-content {
+    max-width: 528px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 156.5%;
+  }
 }
 @media screen and (max-width: 530px) {
   section.container-fluid {
@@ -1019,6 +1298,48 @@ bdi {
   .padding {
     padding-top: 0;
     padding-bottom: 5px;
+  }
+  div.about-company .company-description p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 149.5%;
+  }
+  div.accordion-questions .accordion-button.collapsed {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 21px 15px 12px 22px;
+  }
+  div.accordion-questions .accordion-button:not(.collapsed) {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 21px 32px 8px 24px;
+  }
+  div.accordion-questions .accordion-body {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 15px 12px 22px;
+  }
+  .form-questions .form-title {
+    text-align: center;
+    padding: 38px 15px 8px;
+  }
+  .form-questions .form-description {
+    text-align: center;
+    font-weight: 400;
+    padding: 0 15px 23px;
+  }
+  .form-questions .input-box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .form-questions input#text {
+    margin-bottom: 0;
+  }
+  footer .column-links {
+    display: none;
+  }
+  footer .information-column {
+    margin: 0 35px 34px;
   }
 }
 @media screen and (max-width: 890px) {
@@ -1188,11 +1509,136 @@ bdi {
     font-weight: 700;
     line-height: 124.5%;
   }
+  section.about-company .row {
+    flex-direction: column;
+  }
+  section.about-company .about-company__img-box .about-company__img {
+    width: 277px;
+    height: 308px;
+  }
+  section.about-company .about-company__img-box {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  }
+  section.questions {
+    margin-top: 100px;
+  }
+  section.questions .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .questions .accordion-questions .accordion-item {
+    max-width: none;
+  }
+  .btn-lg img.icon.questions-icon {
+    margin-left: 47px;
+  }
+  section.cooperation .text-content {
+    max-width: 435px;
+  }
+  .cooperation-image {
+    text-align: center;
+  }
+  section.cooperation .img-cooperarion {
+    height: 330px;
+  }
+  .column-links-box {
+    display: none;
+  }
+  footer .col-lg-3 {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  footer .col-lg-3 .information-column {
+    margin: 28px auto;
+  }
+}
+@media screen and (max-width: 1199px) {
+  section.about-company .company-description {
+    margin-bottom: 25px;
+  }
+  .about-company__img {
+    width: 470px;
+    height: 501px;
+  }
+  .questions {
+    margin-top: 150px;
+    margin-bottom: 120px;
+  }
+  section.questions .accordion-questions {
+    margin-bottom: 32px;
+  }
+  section.questions .form-questions {
+    margin: 0 auto;
+  }
+  section.cooperation .row {
+    padding-left: 10px;
+  }
+  section.cooperation .btn-lg {
+    width: 100%;
+    white-space: nowrap;
+  }
+  section.cooperation .btn-lg .icon {
+    margin: 0 -14px 0 200px;
+  }
+  section.cooperation .description-content_1 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: -28px;
+    margin-top: 60px;
+    align-items: center;
+  }
+  section.cooperation .description-content_1 .text-content {
+    margin-top: 63px;
+  }
+  section.cooperation .description-content_1 .img-cooperarion {
+    margin: -25px auto;
+  }
+  section.cooperation .text-content {
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160.5%;
+  }
+  section.cooperation .description-content_2 {
+    margin-top: 46px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section.cooperation .description-content_2 ul + button {
+    margin-top: 20px;
+  }
+  section.cooperation .description-content_2 .text-content {
+    margin-top: 48px;
+  }
+  section.cooperation .description-content_2 .img-cooperarion {
+    margin-top: 21px;
+  }
+  section.cooperation .description-content_2 p {
+    margin-top: -3px;
+    margin-bottom: 10px;
+  }
+  .btn-lg.questions-button {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .btn-lg .icon.questions-icon {
+    margin-left: 15px;
+  }
 }
 @media screen and (max-width: 1310px) {
   .slider-template {
     max-width: 750px;
     margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1310px) {
+  section.cooperation .description-content_1 .img-cooperarion {
+    margin-left: 17px;
+    max-width: none;
   }
 }
 @media screen and (max-width: 1390px) {
@@ -1201,6 +1647,11 @@ bdi {
   }
   .slider-template .slick-arrow.slick-next {
     right: -60px;
+  }
+}
+@media screen and (min-width: 1390px) {
+  section.cooperation .description-content_1 .img-cooperarion {
+    margin-left: 29px;
   }
 }
 /*# sourceMappingURL=style.css.map */
