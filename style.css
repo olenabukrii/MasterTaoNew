@@ -901,7 +901,7 @@ bdi {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 0 20px 33px;
+  padding: 0 30px 33px;
 }
 
 .services .slide-box:before {
@@ -935,6 +935,7 @@ bdi {
 .services .slide-title,
 .services .slide-description {
   margin-bottom: 13px;
+  line-height: 124.5%;
 }
 
 div.about-company {
@@ -1025,7 +1026,7 @@ div.about-company__img-box .container {
 .questions .accordion-questions .accordion .accordion-item .accordion-button:not(.collapsed)::after {
   background-image: url(assets/img/accordion-arrow-orange.svg);
   background-repeat: no-repeat;
-  transform: rotate(0deg) translate(17px, 2px);
+  transform: rotate(0deg) translate(0, 2px);
 }
 
 .questions .accordion-questions .accordion-body {
@@ -1157,7 +1158,7 @@ footer .col-lg-3 .box-3 {
   .accordion-questions .accordion-button:not(.collapsed) {
     font-size: 17px;
     font-weight: 700;
-    padding: 21px 34px 10px;
+    padding: 21px 1.25rem 10px 34px;
   }
   .accordion-questions .accordion-body {
     font-size: 17px;
@@ -1181,8 +1182,9 @@ footer .col-lg-3 .box-3 {
     margin-top: 44px;
     margin-bottom: 38px;
   }
-  .form-questions input#text {
+  .form-questions .input-box:nth-child(4) input {
     margin-bottom: 37px;
+    height: 70px;
   }
   footer .col-lg-3 {
     padding-bottom: 60px;
@@ -1278,7 +1280,7 @@ footer .col-lg-3 .box-3 {
     padding-right: 20px;
   }
   .calculation-form {
-    padding: 52px 35px 15px;
+    padding: 52px 15px 15px;
   }
   .calculation-form .input-box {
     margin: 0 15px 20px;
@@ -1579,9 +1581,6 @@ footer .col-lg-3 .box-3 {
     width: 100%;
     white-space: nowrap;
   }
-  section.cooperation .btn-lg .icon {
-    margin: 0 -14px 0 200px;
-  }
   section.cooperation .description-content_1 {
     display: flex;
     flex-direction: column-reverse;
@@ -1610,6 +1609,8 @@ footer .col-lg-3 .box-3 {
   }
   section.cooperation .description-content_2 ul + button {
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
   }
   section.cooperation .description-content_2 .text-content {
     margin-top: 48px;
